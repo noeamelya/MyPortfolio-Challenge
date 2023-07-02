@@ -1,4 +1,4 @@
-# CSS Challenge: Portfolio
+# CSS Challenge: Portfolio LernantinoR
 
 ## Description
 
@@ -8,7 +8,7 @@ Task to build a portfolio page, which you can add to as the course progresses.
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](../challenge/images/01-css-challenge-demo.gif)
+![portfolio demo](./images/01-css-challenge-demo.gif)
 
 Feel free to use your own colors and images.
 
