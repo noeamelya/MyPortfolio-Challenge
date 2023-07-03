@@ -1,4 +1,4 @@
-# CSS Challenge: Portfolio LernantinoR
+# CSS Challenge: Portfolio Lernantino
 
 ## Description
 
