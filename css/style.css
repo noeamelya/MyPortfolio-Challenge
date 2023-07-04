@@ -18,6 +18,7 @@ html {
 body {
   font-family: var(--BODY-FONT-FAMILY);
   line-height: 1.5;
+
 }
 
 /* Create header with flexbox */
@@ -254,7 +255,7 @@ ul.bottomNav {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   body {
     /* background-color: green;
     background-image: radial-gradient(whitesmoke, green) */
@@ -294,14 +295,14 @@ ul.bottomNav {
 
   .topNav a {
     color: var(--BGCOLOR);
-    font-size: 16px;
+    font-size: 18px;
     border-bottom: 3px solid var(--BGCOLOR);
     padding: 0 5px 0px 5px;
     display: flex;
     justify-content: center;
   }
 
-  .page-wrapper {
+  .page-section {
     width: 95%;
     /* margin: 40px auto 0px auto; */
     display: grid;
@@ -310,8 +311,6 @@ ul.bottomNav {
 
   #portfolio {
     width: 100%;
-    /* display: flex; */
-    /* flex-direction: column; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px 200px 200px 200px 200px;
@@ -324,13 +323,13 @@ ul.bottomNav {
   }
   .page-section {
     border-right: 0;
-    border-bottom: 4px solid var(--BORDER-COLOR);
-    font-size: 20px;
-    text-align: center;
+    border-bottom: 3px solid var(--BORDER-COLOR);
+    /* font-size: 40px; */
+    /* text-align: end; */
+    /* padding-right: 15px; */
   }
-
   h2 {
-    display: inline-block;
+    text-align: center;
   }
 
   #portfolio img {
@@ -339,19 +338,16 @@ ul.bottomNav {
 
   ul.bottomNav {
     padding: 0px;
-    font-size: 10px;
     flex-direction: column;
     align-items: center;
   }
-
-
 }
-
 
 
 @media screen and (max-width: 667px) {
   body {
     background-color: antiquewhite;
+    margin: 0;
   }
 
   header {

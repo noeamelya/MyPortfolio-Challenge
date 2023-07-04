@@ -23,6 +23,11 @@ Requirements necessary to develop a portfolio :
 * When images of the applications are clicked then the user is taken to that deployed application
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
+## OUTCOME
+
+Deployed Site Link : [GitHub page](github.com/noeamelya/MyPortfolio-Lernantino-Challenge)
+
+![project view](/images/viewpoint.png)
 
 ## LICENSE
 
@@ -30,4 +35,4 @@ MIT
 
 ## CONTACT
 
-noeamelyaofficial@hotmail.com# MyPortfolio-Challenge
+noeamelyaofficial@hotmail.com 
