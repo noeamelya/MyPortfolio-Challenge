@@ -6,7 +6,7 @@
 
   /* FONTS */
   --BODY-FONT-FAMILY: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;"
+    "Lucida Sans", Arial, sans-serif;
 }
 
 
@@ -202,6 +202,8 @@ figure {
   width: 100%;
   position: relative;
   border: 3px solid var(--BGCOLOR);
+  margin-block-end:0;
+  margin-block-start: 0;
 
 }
 
@@ -347,7 +349,7 @@ ul.bottomNav {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 667px) {
   body {
     background-color: antiquewhite;
   }
@@ -402,6 +404,7 @@ ul.bottomNav {
 
   #portfolio {
     width: 100%;
+    justify-items: center;
     /* display: flex; */
     /* flex-direction: column; */
     display: grid;
